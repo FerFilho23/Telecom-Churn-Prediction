@@ -8,3 +8,8 @@ pytest
 black
 ruff
 python-dotenv
+openpyxl
+matplotlib
+seaborn
+plotly
+nbformat
