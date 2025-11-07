@@ -26,6 +26,13 @@ It simulates a real-world ML engineering workflow, from data preprocessing and m
 
 ## ⚙️ Installation
 
+Create a [conda](https://docs.conda.io/projects/conda/en/stable/user-guide/getting-started.html) env:
+
+```bash
+conda create -n telecom-churn python=3.11
+conda activate telecom-churn
+```
+
 Clone the repository and install dependencies:
 
 ```bash
