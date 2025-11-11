@@ -13,3 +13,4 @@ matplotlib
 seaborn
 plotly
 nbformat
+xgboost
