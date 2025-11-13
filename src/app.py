@@ -72,7 +72,6 @@ def predict(customer: Customer):
 
     try:
         X = pd.DataFrame([customer.dict()])
-        print(X.head())
         proba = float(model.predict_proba(X)[:, 1][0])
         will_churn = "Churn" if proba >= BEST_THRESHOLD else "No Churn"
         return {"churn_probability": proba, "will_churn": will_churn}
