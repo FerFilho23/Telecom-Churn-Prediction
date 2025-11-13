@@ -1,7 +1,7 @@
 pandas
 numpy
 scikit-learn
-fastapi
+fastapi[standard]
 uvicorn
 joblib
 pytest
@@ -14,3 +14,4 @@ seaborn
 plotly
 nbformat
 xgboost
+pydantic
