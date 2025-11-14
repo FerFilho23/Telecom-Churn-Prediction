@@ -30,9 +30,8 @@ It simulates a real-world ML engineering workflow, from data preprocessing and m
 
 This ML model is deployed and running serverlessly on Google Cloud Run:
 
-```bash
-https://telecom-churn-prediction-91434658183.us-central1.run.app
-```
+https://telecom-churn-prediction-91434658183.us-central1.run.app/docs
+
 
 ### ☁️ GCP Architecture Diagram
 GitHub Repo → Cloud Build Trigger → Build Container Image → Deploy to Cloud Run → Public FastAPI Endpoint
