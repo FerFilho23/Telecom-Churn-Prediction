@@ -7,6 +7,7 @@
 ![Matplotlib](https://img.shields.io/badge/plotly-6.4+-blue?logo=plotly)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3+-yellow?logo=scikitlearn)
 ![gcp](https://img.shields.io/badge/Google--Cloud-blue?logo=google-cloud&logoColor=white)
+![streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 ![Status](https://img.shields.io/badge/version-v1.0-green)
 
 ## 🧭 Project Overview
@@ -67,6 +68,12 @@ Docker build
 ```bash
 docker build -t churn-api .
 docker run -p 8000:8000 churn-api
+```
+
+Run Streamlit
+
+```bash
+streamlit run reports/dashboard.py
 ```
 
 ## 🗂️ Repository Structure
